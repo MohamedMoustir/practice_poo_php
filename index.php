@@ -14,7 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     echo $users->getNom();
 }
 
-
 $query = $systeme->link->query('SELECT * FROM utilisateurs WHERE type_utilisateur = "Médecin"');
 
 $Médecins = [];
